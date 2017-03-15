@@ -15,6 +15,7 @@
             android:background="@color/colorPrimaryDark"
             tools:layout_editor_absoluteY="8dp"
             tools:layout_editor_absoluteX="8dp">
+
             <LinearLayout
 
                 android:layout_width="match_parent"
@@ -66,14 +67,12 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="0.32"
                     android:text="@string/contacto2"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/color1"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
 
-
             </LinearLayout>
-
             <LinearLayout
 
                 android:layout_width="match_parent"
@@ -96,9 +95,126 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="0.32"
                     android:text="@string/contacto3"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/color1"
                     android:textSize="18sp"
                     android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/button2"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/contacto4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.32"
+                    android:text="@string/contacto4"
+                    android:textColor="@color/color1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/button2"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/contacto5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.32"
+                    android:text="@string/contacto2"
+                    android:textColor="@color/color1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/button2"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/contacto6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.32"
+                    android:text="@string/contacto3"
+                    android:textColor="@color/color1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/button2"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/contacto7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.32"
+                    android:text="@string/contacto4"
+                    android:textColor="@color/color1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
 
 
 
